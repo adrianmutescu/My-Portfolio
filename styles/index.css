@@ -1,0 +1,99 @@
+body {
+    background-color: #030303;
+    color: #fff;
+    font-family: "Noto Sans", sans-serif;
+    
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+
+}
+
+nav {
+    padding: 1.5em 1em;
+    display: flex;
+    flex-direction: row;
+    font-weight: 600;
+}
+
+nav img {
+    width: 12rem;
+    padding: 1.5em;
+    border-right: solid 1px #fff;
+    margin-inline-end: 2em;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    margin-block: auto;
+}
+
+nav ul li {
+    margin-inline: 2.5em;
+}
+
+header {
+    margin-block: 4em;
+    margin-inline-start: 4em;
+
+}
+
+header h2 {
+    line-height: 0;
+    font-size: 2em;
+    font-weight: 350;
+    padding: 0;
+    margin: 0;
+}
+
+header h1 {
+    line-height: 2em;
+    font-size: 5em;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+
+}
+
+header button {
+    margin-block-start: 4em;
+    font-weight: 600;
+    color: #fff;
+    border: solid 1px #847171;
+    border-radius: 30px;
+    padding: 0.5em 0.5em;
+    margin-inline-end: 2em;
+    background-color: transparent;
+}
+
+header button a {
+    font-size: 1em;
+    padding: 0.5em 3em;
+}
+
+.left-side {
+    border-right: solid 1px #fff;
+    background: url(../Assets/background.png);
+    background-position: 5em;
+    background-size: 75em;
+}
+.right-side {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.right-side div h3 {
+    line-height: 0;
+    letter-spacing: 0.38em;
+    margin-inline: auto;
+}
+.right-side div img {
+    border: solid 1px #fff;
+    padding: 4em 1em;
+    width: 20em;
+}
